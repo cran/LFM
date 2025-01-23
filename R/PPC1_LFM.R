@@ -1,6 +1,6 @@
-#' @name PPC_LFM
+#' @name PPC1_LFM
 #' @title Apply the PPC method to the Laplace factor model
-#' @description This function computes Projected Principal Component Analysis (PPC) for the provided input data, estimating factor loadings and uniquenesses. It calculates mean squared errors and loss metrics for the estimated values compared to true values.
+#' @description This function computes Perturbation Principal Component Analysis (PPC) for the provided input data, estimating factor loadings and uniquenesses. It calculates mean squared errors and loss metrics for the estimated values compared to true values.
 #' @param data A matrix of input data.
 #' @param m The number of principal components.
 #' @param A The true factor loadings matrix.
@@ -29,12 +29,12 @@
 #' epsilon=matrix(lanor,nrow=n)
 #' D=diag(t(epsilon)%*%epsilon)
 #' data=mu+F%*%t(A)+epsilon
-#' results <- PPC_LFM(data, m, A, D, p)
+#' results <- PPC1_LFM(data, m, A, D, p)
 #' print(results)
 #' @export
 #' @importFrom SOPC PPC
 #' @importFrom matrixcalc frobenius.norm
-PPC_LFM <- function(data, m, A, D, p) {
+PPC1_LFM <- function(data, m, A, D, p) {
   Ap = PPC(data, m = m, eta = 0.8)$Ap
   Dp = PPC(data, m = m, eta = 0.8)$Dp
   MSESigmaA = frobenius.norm(Ap - A)^2 / (p^2)

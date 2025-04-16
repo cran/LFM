@@ -1,4 +1,4 @@
-705c8eb5d8cdf0ef80bd08e8276d9708 *DESCRIPTION
+cf56b43529cf9478f0c694ff3b962e0c *DESCRIPTION
 f8bd1af6d8cf7917ee09b23b24371abb *LICENSE
 de545aab84d160ef88cd2e4fe1246dc7 *NAMESPACE
 6411148f1c04b0a7abeef1b3a45491ab *R/FanPC_LFM.R
@@ -14,6 +14,15 @@ c7b0ceb4784b46b1f85ed76cc91eccf7 *R/OPC_LFM.R
 6ac6ab423fed5e3417da35c63d42ba40 *R/SAPC_LFM.R
 54fbf8ef86e68bb4523a4e8fc16c072b *R/SOPC_LFM.R
 54e138b3d87f6c0b8d7f3538e5d50013 *R/SPC_LFM.R
+b24e81429826243d5b2018a6360f3a9c *data/bankruptcy.rda
+b1c9d62441f48fd7a9b95d0b0c65a0a8 *data/concrete.rda
+a381b0f4fe7eb7029be75ae19411901e *data/protein.rda
+255b5e1819c2f9a5f301118d1e7c3eb0 *data/review.rda
+8d8f53ac4e1a180c68f4ec96819dad4b *data/riboflavin.rda
+9bf8816b7d26622f8c30fc29735da4c7 *data/riboflavinv100.rda
+ae1530f44968112e33b754c9fe0e6e97 *data/vehicle.rda
+266fc16ddcefe35d429c7681c2f08eb2 *data/wholesale.rda
+09b8e40d99c29e82e6e82bc909ecd9f2 *data/yacht_hydrodynamics.rda
 6ed7ce4d49cc01be47af98cd26541e8f *man/FanPC_LFM.Rd
 0a4aaa81c475d24f9faa360a1435d9bf *man/Ftest_LFM.Rd
 447f9d61f360e75a117dfd718972771f *man/GulPC_LFM.Rd
@@ -27,3 +36,12 @@ b78f092777ecf969513313c6fb2a4965 *man/PPC2_LFM.Rd
 2baa7b4bfca32faddd03c79a5dfb742d *man/SAPC_LFM.Rd
 8dbf3a6ca418d7b472aa5255379e1ebd *man/SOPC_LFM.Rd
 5c0b0cc89380bc06f5b3e8b0bd8ae607 *man/SPC_LFM.Rd
+d5e005d1bf8942b200e27937259f762a *man/bankruptcy.Rd
+cf286be6223044d7240ec34974e5146f *man/concrete.Rd
+f16d3fb7691545b0fc1997e0d7157841 *man/protein.Rd
+5e1e916ea06a4bf14e02873a27e260d7 *man/review.Rd
+42f959070acfddf88036a61b1286f3ee *man/riboflavin.Rd
+6b936a7463c9dd46e0a5e12274490244 *man/riboflavinv100.Rd
+5dc9e96abde0744e77329ebfc0fe491d *man/vehicle.Rd
+276d2302ae927c82ae686d60b2054f5b *man/wholesale.Rd
+d2bc3a107fcc4cbfe0d1e48ee5b775b2 *man/yacht_hydrodynamics.Rd

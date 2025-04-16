@@ -1,8 +1,8 @@
 Package: LFM
 Type: Package
 Title: Laplace Factor Model Analysis and Evaluation
-Date: 2025-1-23
-Version: 0.2.0
+Date: 2025-4-16
+Version: 0.3.0
 Authors@R: c(person(given = "Guangbao",
                         family = "Guo",
                         role = c("aut", "cre"),
@@ -20,11 +20,12 @@ NeedsCompilation: no
 Language: en-US
 Author: Guangbao Guo [aut, cre],
   Siqi Liu [aut]
-Maintainer: Guangbao Guo <ggb11111111@163.com>
 Depends: R (>= 3.5.0)
+LazyData: true
 BuildManual: yes
 Suggests: testthat (>= 3.0.0)
 Config/testthat/edition: 3
-Packaged: 2025-01-23 05:58:27 UTC; R7000
+Packaged: 2025-04-16 06:53:10 UTC; R7000
+Maintainer: Guangbao Guo <ggb11111111@163.com>
 Repository: CRAN
-Date/Publication: 2025-01-23 14:20:04 UTC
+Date/Publication: 2025-04-16 08:10:06 UTC

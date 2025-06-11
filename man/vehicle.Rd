@@ -37,15 +37,6 @@ A data frame with multiple rows and 27 columns representing different features r
 \item \code{Y}: Whether the coupon was accepted - 1, 0.
 }
 }
-\details{
-The dataset includes various contextual features such as driver demographics, weather conditions, time of day, and coupon details. It also includes features related to driving habits and preferences. The target variable is whether the coupon was accepted (Y).
-}
-\note{
-This dataset can be used for classification tasks to predict coupon acceptance based on contextual features.
-}
-\source{
-UCI Machine Learning Repository
-}
 \examples{
 # Load the dataset
 data(vehicle)

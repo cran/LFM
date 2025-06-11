@@ -16,15 +16,6 @@ data(riboflavinv100)
 }
 }
 }
-\details{
-This dataset is derived from the original riboflavin dataset, which contains 4088 gene expressions. The riboflavinV100 dataset is created for ease of reproduction in examples and contains only the 100 genes with the largest empirical variances. It is commonly used in statistical research for high-dimensional data analysis.
-}
-\note{
-The dataset is provided by DSM Nutritional Products Ltd., a leading company in the field of nutritional ingredients. The data have been preprocessed and normalized.
-}
-\source{
-DSM Nutritional Products Ltd., Basel, Switzerland.
-}
 \examples{
 # Load the riboflavinv100 dataset
 data(riboflavinv100)

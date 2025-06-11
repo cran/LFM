@@ -24,15 +24,6 @@ A data frame with multiple rows and 12 columns.
 \item \code{Religious_Institutions}: Average user feedback on religious institutions.
 }
 }
-\details{
-The dataset is populated by crawling TripAdvisor.com and includes reviews on destinations in 11 categories across East Asia. Each traveler's rating is mapped as follows: Excellent (4), Very Good (3), Average (2), Poor (1), and Terrible (0). The average rating for each category per user is used.
-}
-\note{
-This dataset is licensed under a Creative Commons Attribution 4.0 International (CC BY 4.0) license, which allows for sharing and adaptation of the data for any purpose, provided that appropriate credit is given.
-}
-\source{
-UCI Machine Learning Repository
-}
 \examples{
 # Load the dataset
 data(review)

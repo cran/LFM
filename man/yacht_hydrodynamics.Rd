@@ -20,15 +20,6 @@ A data frame with 308 rows and 7 columns.
 \item \code{Froude Number}: Froude number.
 }
 }
-\details{
-The dataset contains hydrodynamic data for sailing yachts, with the goal of predicting the residuary resistance from various design parameters.
-}
-\note{
-The dataset is commonly used for regression analysis and machine learning tasks to model the relationship between design parameters and performance metrics.
-}
-\source{
-UCI Machine Learning Repository
-}
 \examples{
 # Load the dataset
 data(yacht_hydrodynamics)

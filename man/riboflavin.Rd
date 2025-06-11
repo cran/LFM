@@ -17,15 +17,6 @@ data(riboflavin)
 }
 }
 }
-\details{
-The riboflavin dataset is a high-dimensional dataset commonly used in statistical research, particularly in the fields of bioinformatics and systems biology. It was originally collected to study the genetic regulation of riboflavin biosynthesis in Bacillus subtilis. The data were generated using DNA microarray technology to measure gene expression levels under various experimental conditions.
-}
-\note{
-The dataset is provided by DSM Nutritional Products Ltd., a leading company in the field of nutritional ingredients. The data have been preprocessed and normalized to account for technical variations in the microarray measurements.
-}
-\source{
-DSM Nutritional Products Ltd., Basel, Switzerland.
-}
 \examples{
 # Load the riboflavin dataset
 data(riboflavin)

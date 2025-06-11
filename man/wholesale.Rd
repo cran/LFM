@@ -19,15 +19,6 @@ A data frame with 440 rows and 8 columns.
 \item \code{REGION}: Customers' region - Lisbon, Oporto or Other (Nominal).
 }
 }
-\details{
-The dataset includes both continuous spending variables and nominal classification variables (CHANNEL and REGION). Descriptive statistics for the continuous variables are provided, including minimum, maximum, mean, and standard deviation.
-}
-\note{
-The data can be used for clustering analysis to segment customers based on their purchasing behavior.
-}
-\source{
-UCI Machine Learning Repository
-}
 \examples{
 # Load the dataset
 data(wholesale)

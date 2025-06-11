@@ -23,18 +23,6 @@ A data frame with 103 rows and 10 columns.
 \item \code{Compressive_Strength}: 28-day compressive strength of the concrete (MPa).
 }
 }
-\details{
-The dataset includes 7 input variables (concrete ingredients) and 3 output variables (slump, flow, and compressive strength). The initial dataset had 78 data points, with an additional 25 data points added later.
-}
-\note{
-The dataset assumes that all measurements are accurate and does not account for measurement errors. The slump flow of concrete is influenced by multiple factors, including water content and other ingredients.
-}
-\source{
-Donor: I-Cheng Yeh \\
-Email: icyeh 'at' chu.edu.tw \\
-Institution: Department of Information Management, Chung-Hua University (Republic of China) \\
-Other contact information: Department of Information Management, Chung-Hua University, Hsin Chu, Taiwan 30067, R.O.C.
-}
 \examples{
 # Load the dataset
 data(concrete)

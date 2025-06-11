@@ -1,8 +1,8 @@
 Package: LFM
 Type: Package
 Title: Laplace Factor Model Analysis and Evaluation
-Date: 2025-4-16
-Version: 0.3.0
+Date: 2025-6-11
+Version: 0.3.1
 Authors@R: c(person(given = "Guangbao",
                         family = "Guo",
                         role = c("aut", "cre"),
@@ -10,7 +10,7 @@ Authors@R: c(person(given = "Guangbao",
                  person(given = "Siqi",
                         family = "Liu",
                         role = "aut"))
-Description: Enables the generation of Laplace factor models across diverse Laplace distributions and facilitates the application of Sparse Online Principal Component (SOPC), Incremental Principal Component (IPC), Projected Principal Component (PPC), Perturbation Principal Component (PPC), Stochastic Approximation Principal Component (SAPC), Sparse Principal Component (SPC) and other PC methods and Farm Test methods to these models. Evaluates the efficacy of these methods within the context of Laplace factor models by scrutinizing parameter estimation accuracy, mean square error, and the degree of sparsity.
+Description: Enables the generation of Laplace factor models across diverse Laplace distributions and facilitates the application of Sparse Online Principal Component (SOPC), Incremental Principal Component (IPC), Perturbation Principal Component (PPC), Stochastic Approximation Principal Component (SAPC), Sparse Principal Component (SPC) and other PC methods and Farm Test methods to these models. Evaluates the efficacy of these methods within the context of Laplace factor models by scrutinizing parameter estimation accuracy, mean square error, and the degree of sparsity.
 License: MIT + file LICENSE
 Encoding: UTF-8
 RoxygenNote: 7.3.2
@@ -25,7 +25,7 @@ LazyData: true
 BuildManual: yes
 Suggests: testthat (>= 3.0.0)
 Config/testthat/edition: 3
-Packaged: 2025-04-16 06:53:10 UTC; R7000
+Packaged: 2025-06-11 07:31:54 UTC; R7000
 Maintainer: Guangbao Guo <ggb11111111@163.com>
 Repository: CRAN
-Date/Publication: 2025-04-16 08:10:06 UTC
+Date/Publication: 2025-06-11 08:10:02 UTC

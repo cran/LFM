@@ -17,15 +17,6 @@ A data frame with multiple rows and columns representing protein sequences and t
 \item \code{Biophysical_Constants}: Biophysical constants (to be ignored).
 }
 }
-\details{
-The dataset is used for predicting protein secondary structures from amino acid sequences. The first few numbers in each sequence are parameters for neural networks and should be ignored. The '<' symbol is used as a spacer between proteins and to mark the beginning and end of sequences.
-}
-\note{
-The biophysical constants included in the dataset were found to be unhelpful and are generally ignored in analysis.
-}
-\source{
-Vince G. Sigillito, Applied Physics Laboratory, Johns Hopkins University.
-}
 \examples{
 # Load the dataset
 data(protein)

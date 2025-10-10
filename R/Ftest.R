@@ -1,4 +1,4 @@
-#' @name Ftest_LFM
+#' @name Ftest
 #' @title Apply the Farmtest method to the Laplace factor model
 #' @description This function simulates data from a Lapalce factor model and applies the FarmTest
 #' for multiple hypothesis testing. It calculates the false discovery rate (FDR)
@@ -26,13 +26,13 @@
 #' D=diag(t(epsilon)%*%epsilon)
 #' data=mu+F%*%t(A)+epsilon
 #' p1=40
-#' results <- Ftest_LFM(data, p1)
+#' results <- Ftest(data, p1)
 #' print(results$FDR)
 #' print(results$Power)
 #' @export
 #' @importFrom FarmTest farm.test
 #'
-Ftest_LFM <- function(data, p1) {
+Ftest <- function(data, p1) {
 
   # Apply FarmTest
   output <- farm.test(data)

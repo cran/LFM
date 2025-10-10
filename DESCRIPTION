@@ -1,8 +1,8 @@
 Package: LFM
 Type: Package
 Title: Laplace Factor Model Analysis and Evaluation
-Date: 2025-6-11
-Version: 0.3.1
+Date: 2025-9-15
+Version: 0.3.2
 Authors@R: c(person(given = "Guangbao",
                         family = "Guo",
                         role = c("aut", "cre"),
@@ -14,8 +14,8 @@ Description: Enables the generation of Laplace factor models across diverse Lapl
 License: MIT + file LICENSE
 Encoding: UTF-8
 RoxygenNote: 7.3.2
-Imports: stats, FarmTest, MASS, SOPC, LaplacesDemon, matrixcalc,
-        relliptical
+Imports: stats, FarmTest, MASS, LaplacesDemon, matrixcalc, relliptical,
+        elasticnet
 NeedsCompilation: no
 Language: en-US
 Author: Guangbao Guo [aut, cre],
@@ -25,7 +25,7 @@ LazyData: true
 BuildManual: yes
 Suggests: testthat (>= 3.0.0)
 Config/testthat/edition: 3
-Packaged: 2025-06-11 07:31:54 UTC; R7000
+Packaged: 2025-09-15 03:51:41 UTC; R7000
 Maintainer: Guangbao Guo <ggb11111111@163.com>
 Repository: CRAN
-Date/Publication: 2025-06-11 08:10:02 UTC
+Date/Publication: 2025-10-10 12:10:08 UTC

@@ -1,8 +1,10 @@
-b92834082824741276a0cc8b38f7838c *DESCRIPTION
+ec468526e78458bc54cb66cfa323e935 *DESCRIPTION
 f8bd1af6d8cf7917ee09b23b24371abb *LICENSE
-7707b749d8a669e6faee53a4c3d0cd90 *NAMESPACE
+e8e9bfccb5b4fc8214cac9c4c4ea828f *NAMESPACE
+5e36a41464060a9e22b7a5f2214b3086 *R/DGulPC.R
+798c5afa0a7cf1c437fede74a931cb27 *R/DPPC.R
 8a20488fad99d3ab86beb235e7859a05 *R/FanPC.R
-1895163d1bc51490daef54588cccbe6c *R/Ftest.R
+ba32a4621e372c4d7c4c349f8058f772 *R/Ftest.R
 47b9326247926be60ca140c9c84155d4 *R/GulPC.R
 292bc0423859dc04980d07f9b511419d *R/IPC.R
 8bfd1dd472813d2bde7bfa0c9a203b42 *R/LFM.R
@@ -14,6 +16,7 @@ b60b2985cf3053c956e003fb329e3f70 *R/PC2.R
 c3994036bca7349b052b63fc9739c342 *R/SAPC.R
 17dd1553b8ae7db80b09adfb7d2a8f2b *R/SOPC.R
 6cf10a65a0b0f6f80f1a87b61dad1276 *R/SPC.R
+33c06c5086b4c95cbc527837b4190504 *R/factor.tests.R
 b59f8d0b977c5cd172fd8d0af19957b8 *data/Australian.rda
 eef08b07989cec7ccb469ec0970f853e *data/Breast.rda
 380408f34c064cdb44ff10a678fe7dab *data/Heart.rda
@@ -32,8 +35,10 @@ ae1530f44968112e33b754c9fe0e6e97 *data/vehicle.rda
 09b8e40d99c29e82e6e82bc909ecd9f2 *data/yacht_hydrodynamics.rda
 ed71f1a892d58c62b93ab59376c60c1f *man/Australian.Rd
 3b8b38171ee1650bf1378b3427103719 *man/Breast.Rd
+f134e759d9125c40022cf5ace92bca09 *man/DGulPC.Rd
+9ea5f697ac36bc90358fb85caf29b22d *man/DPPC.Rd
 b945b6790af0d2c5ae278d7f81d4a616 *man/FanPC.Rd
-876dfc69d11a4f85b155f48c1b5c276c *man/Ftest.Rd
+ba2785e0e8519323f8fa33a33b682a12 *man/Ftest.Rd
 c9cf92aa54ececee6bdb1f88a341d33e *man/GulPC.Rd
 348f55b06d5b088a9a2df65624bc3498 *man/Heart.Rd
 3c92236591a2f6be5f5b552c50bcc4a1 *man/IPC.Rd
@@ -51,6 +56,7 @@ a0c2acc730ff3bea104e905c4ef20fd3 *man/SPC.Rd
 33b0c23bde1b6987d5cde2ce064d4ccc *man/Wine.Rd
 d5e005d1bf8942b200e27937259f762a *man/bankruptcy.Rd
 2477e5c7a29346b310b178662173c46d *man/concrete.Rd
+21dbb9072ede5c2fc58eda40739b837d *man/factor.tests.Rd
 74427a1d228e1ab9168a1e0aebb98002 *man/ionosphere.Rd
 c19cc59f906f15f3881877432ab27b24 *man/protein.Rd
 8a9bfa78c38d2cb3462a3d9d58a4e29d *man/review.Rd
